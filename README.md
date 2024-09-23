@@ -12,7 +12,7 @@ Artificial intelligence (AI) has the ability to predict rheological properties a
 # Repository structure
 
 ## Data
-- Rheology_clean_data.xlxs
+- Rheology data.xlxs
 - visual_overview.png
 
 ## Notebooks
