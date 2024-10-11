@@ -16,6 +16,6 @@ Artificial intelligence (AI) has the ability to predict rheological properties a
 - visual_overview.png
 
 ## Notebooks
-- Hydro_gen_paper_test.ipynb
+- Hydro_gen_test_paper.ipynb
 - Hydrogel_MLP.ipynb
 - Stats_hydrogel_paper.ipynb
