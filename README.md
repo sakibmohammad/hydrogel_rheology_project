@@ -19,7 +19,24 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 ---
 
 ## 📁 **Repository Structure**
-/hydrogel_rheology_project │── app.py # Gradio app for running models │── model.py # Model architecture & loading functions │── requirements.txt # Required packages for setup │── README.md # Project documentation │── weights/ # Stores trained model weights │ ├── model_regression.pth │ ├── model_cvae.pth │── scalers/ # Stores scaler files for preprocessing │ ├── scaler_regression.pkl │ ├── scaler_cvae_x.pkl │ ├── scaler_cvae_y.pkl │── Data/ # Data used for training/testing │── Notebooks/ # Jupyter notebooks for experiments │ ├── Hydro_gen_test_paper.ipynb │ ├── Hydrogel_MLP.ipynb │ ├── Stats_hydrogel_paper.ipynb
+```bash
+/hydrogel_rheology_project
+│── app.py                   # Gradio app for running models
+│── model.py                 # Model architecture & loading functions
+│── requirements.txt         # Required packages for setup
+│── README.md                # Project documentation
+│── weights/                 # Stores trained model weights
+│   ├── model_regression.pth
+│   ├── model_cvae.pth
+│── scalers/                 # Stores scaler files for preprocessing
+│   ├── scaler_regression.pkl
+│   ├── scaler_cvae_x.pkl
+│   ├── scaler_cvae_y.pkl
+│── Data/                    # Data used for training/testing
+│── Notebooks/               # Jupyter notebooks for experiments
+│   ├── Hydro_gen_test_paper.ipynb
+│   ├── Hydrogel_MLP.ipynb
+│   ├── Stats_hydrogel_paper.ipynb
 
 python3 -m venv env
 source env/bin/activate  # (Linux/Mac)
@@ -29,3 +46,4 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 python3 app.py
+
