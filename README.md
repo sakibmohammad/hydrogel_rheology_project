@@ -36,10 +36,11 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 │   ├── scaler_regression.pkl
 │   ├── scaler_cvae_x.pkl
 │   ├── scaler_cvae_y.pkl
+│── README.md
 │── app.py                  
 │── model.py                 
 │── requirements.txt
-│── README.md
+
 
 ```
 🛠 Installation & Setup
