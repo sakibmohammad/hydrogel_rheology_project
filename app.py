@@ -88,7 +88,7 @@ cvae_int = gr.Interface(
         gr.Number(label="Exposure time (s)", precision= 2),
         gr.Number(label="Frequency (Hz)", precision= 2),
     ],
-    title="CVAE Model: Generate Material Composition",
+    title="Generative Model: Generate Material Composition",
     submit_btn="Generate",
     theme = gr.themes.Base()
 )
