@@ -16,7 +16,7 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 
 📌 Our trained DL models were successful in mapping the **input–output relationship** for **3D-printed hydrogel substrates**, enabling prediction of **multiple variables from a handful of input variables and vice versa**.
 
-![Graphical abstract](abstract_graphical.png)
+![Graphical abstract](Data/abstract_graphical.png)
 ---
 
 ## 📁 **Repository Structure**
@@ -33,7 +33,9 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 │   ├── scaler_regression.pkl
 │   ├── scaler_cvae_x.pkl
 │   ├── scaler_cvae_y.pkl
-│── Data/                    
+│── Data/
+│   ├── Rheology data.xlsx
+│   ├── abstract_graphical.png                
 │── Notebooks/               
 │   ├── Hydro_gen_test_paper.ipynb
 │   ├── Hydrogel_MLP.ipynb
