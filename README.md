@@ -21,11 +21,14 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 
 ## 📁 **Repository Structure**
 ```
-/hydrogel_rheology_project
-│── app.py                  
-│── model.py                 
-│── requirements.txt        
-│── README.md                
+/hydrogel_rheology_project      
+│── Data/
+│   ├── Rheology data.xlsx
+│   ├── abstract_graphical.png                
+│── Notebooks/               
+│   ├── Hydro_gen_test_paper.ipynb
+│   ├── Hydrogel_MLP.ipynb
+│   ├── Stats_hydrogel_paper.ipynb             
 │── Weights/                
 │   ├── model_regression.pth
 │   ├── model_cvae.pth
@@ -33,13 +36,11 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 │   ├── scaler_regression.pkl
 │   ├── scaler_cvae_x.pkl
 │   ├── scaler_cvae_y.pkl
-│── Data/
-│   ├── Rheology data.xlsx
-│   ├── abstract_graphical.png                
-│── Notebooks/               
-│   ├── Hydro_gen_test_paper.ipynb
-│   ├── Hydrogel_MLP.ipynb
-│   ├── Stats_hydrogel_paper.ipynb
+│── app.py                  
+│── model.py                 
+│── requirements.txt
+│── README.md
+
 ```
 🛠 Installation & Setup
 Follow these steps to set up and run the project locally.
