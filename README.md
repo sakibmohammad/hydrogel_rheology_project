@@ -40,8 +40,6 @@ We employed a **multilayer perceptron (MLP)** and successfully predicted G' and 
 │── app.py                  
 │── model.py                 
 │── requirements.txt
-
-
 ```
 🛠 Installation & Setup
 Follow these steps to set up and run the project locally.
